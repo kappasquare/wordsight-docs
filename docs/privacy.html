@@ -2,25 +2,25 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
-		<link rel="icon" href="/WordSight/favicon.png" />
+		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link href="/WordSight/_app/immutable/assets/_layout-554b10e4.css" rel="stylesheet">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/start-688b00d1.js">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/chunks/index-6be8d27d.js">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/chunks/singletons-6c8b89a0.js">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/chunks/paths-b4419565.js">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/components/pages/_layout.svelte-0705c4d0.js">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/modules/pages/_layout.js-55770e65.js">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/chunks/_layout-025914ab.js">
-		<link rel="modulepreload" href="/WordSight/_app/immutable/components/pages/privacy/_page.svelte-7b8fdcd6.js"><title>WordSight - Privacy</title><!-- HEAD_svelte-150fepq_START --><!-- HEAD_svelte-150fepq_END -->
+		
+		<link href="./_app/immutable/assets/0.554b10e4.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.eae9d939.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.6d8a4b3d.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.773ee279.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.eb1bc75a.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.d3ccdd42.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.1139f505.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.2b29cfcf.js"><title>WordSight - Privacy</title><!-- HEAD_svelte-150fepq_START --><!-- HEAD_svelte-150fepq_END -->
 	</head>
 	<body>
 		<div style="display: contents">
 
 
 
-<div class="flex bg-[#000000] place-content-center"><div class="grid h-screen"><div class="grid bg-[#000000] p-5 place-content-center text-white"><div class="grid place-items-center"><a href="/WordSight/"><img class="scale-50" src="./favicon.png" alt=""></a></div>
+
+<div class="flex bg-[#000000] place-content-center"><div class="grid h-screen"><div class="grid bg-[#000000] p-5 place-content-center text-white"><div class="grid place-items-center"><a href="/wordsight-docs/"><img class="scale-50" src="./favicon.png" alt=""></a></div>
 			<h1 id="tracking-widest privacy-policy" class="font-bold text-center pt-4 text-lg">Privacy Policy</h1>
 			<p>The WordSight application as an Ad Supported application. This service is provided at no
 				cost and is intended for use as is.
@@ -55,21 +55,32 @@
 			<p>Please reach out to us at thewordsight@gmail.com for any support/queries.</p></div></div></div>
 
 
-		<script type="module" data-sveltekit-hydrate="759qv1">
-			import { start } from "/WordSight/_app/immutable/start-688b00d1.js";
+			
+			<script>
+				{
+					__sveltekit_fgwshm = {
+						assets: "/wordsight-docs",
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
 
-			start({
-				env: {},
-				paths: {"base":"/WordSight","assets":"/WordSight"},
-				target: document.querySelector('[data-sveltekit-hydrate="759qv1"]').parentNode,
-				version: "1671859832646",
-				hydrate: {
-					node_ids: [0, 3],
-					data: [null,null],
-					form: null
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.eae9d939.js"),
+						import("./_app/immutable/entry/app.d3ccdd42.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
+			</script>
+		</div>
 	</body>
 </html>
