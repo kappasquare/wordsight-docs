@@ -7,16 +7,24 @@
 </svelte:head>
 <div class="flex bg-[#000000]  place-content-center">
 	<div class="grid h-screen">
-		<div class="grid bg-[#000000] p-5 place-content-center text-white">
+		<div class="flex flex-row items-center justify-center">
+			<img class="w-16" src="./favicon.png" alt="" />
+		</div>
+		<div class="grid bg-[#000000] p-0 place-content-center text-white w-[800px]">
 			<div class="grid place-items-center">
 				<a href="{base}/"><img class="scale-50" src="./favicon.png" alt="" /></a>
 			</div>
-			<h1 id="tracking-widest privacy-policy" class="font-bold text-center pt-4 text-lg">Privacy Policy</h1>
-			<p>
+			<h1
+				id="tracking-widest privacy-policy"
+				class="font-bold text-center mt-4 text-lg bg-zinc-700"
+			>
+				Privacy Policy
+			</h1>
+			<p class="mt-4">
 				The WordSight application as an Ad Supported application. This service is provided at no
 				cost and is intended for use as is.
 			</p>
-			<h2 id="information-collection-and-use" class="font-bold pt-4">
+			<h2 id="information-collection-and-use" class="font-bold mt-4 bg-zinc-800 px-1">
 				Information Collection and Use
 			</h2>
 			<p>WordSight does not collect or store personal data.</p>
@@ -32,12 +40,12 @@
 					href="https://www.apple.com/legal/privacy">https://www.apple.com/legal/privacy</a
 				>
 			</p>
-			<h2 id="permissions-requested-by-the-application" class="font-bold pt-4">
+			<h2 id="permissions-requested-by-the-application" class="font-bold mt-4 bg-zinc-800 px-1">
 				Permissions Requested by the Application
 			</h2>
 			<p>The following permissions are requested by the WordsSight application:</p>
 			<table rules="groups">
-				<thead>
+				<thead class="bg-zinc-900">
 					<tr>
 						<th style="text-align: left">Permission</th>
 						<th style="text-align: center">Requirement</th>
@@ -62,7 +70,7 @@
 				</tbody>
 			</table>
 
-			<h2 id="changes-to-this-privacy-policy" class="font-bold pt-4">
+			<h2 id="changes-to-this-privacy-policy" class="font-bold mt-4 bg-zinc-800 px-1">
 				Changes to This Privacy Policy
 			</h2>
 			<p>
@@ -70,7 +78,7 @@
 				page periodically for any changes.
 			</p>
 			<p>This policy is effective as of 2022-11-01.</p>
-			<h2 id="support" class="font-bold pt-4">Support</h2>
+			<h2 id="support" class="font-bold mt-4 bg-zinc-800 px-1">Support</h2>
 			<p>Please reach out to us at thewordsight@gmail.com for any support/queries.</p>
 		</div>
 	</div>
