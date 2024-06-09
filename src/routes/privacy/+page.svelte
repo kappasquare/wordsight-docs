@@ -8,12 +8,9 @@
 <div class="flex bg-[#000000]  place-content-center">
 	<div class="grid h-screen">
 		<div class="flex flex-row items-center justify-center">
-			<img class="w-16" src="./favicon.png" alt="" />
+			<img class="w-16" src="{base}/favicon.png" alt="" />
 		</div>
 		<div class="grid bg-[#000000] p-0 place-content-center text-white w-[800px]">
-			<div class="grid place-items-center">
-				<a href="{base}/"><img class="scale-50" src="./favicon.png" alt="" /></a>
-			</div>
 			<h1
 				id="tracking-widest privacy-policy"
 				class="font-bold text-center mt-4 text-lg bg-zinc-700"
